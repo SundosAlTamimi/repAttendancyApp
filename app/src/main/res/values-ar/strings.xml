@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EmployeeTime</string>
+    <string name="mainSetting">"الرجاء اضافة الاعدادات"</string>
+    <string name="nomainSetting">لا يوجد اعدادات لنتمكن من فتح التطبيق</string>
+    <string name="cancel">"اضافة الاعدادات"</string>
+    <string name="multiClick">"تم تفعيله سابقا"</string>
+    <string name="checkIn">الرجاء تسجبل الدخول الى مقر العمل اولا </string>
+    <string name="Lang">Ar</string>
+    <string name="save">تم الحفظ بنجاح</string>
+    <string name="welcome_to_app">مرحبا بك في التطبيق</string>
+    <string name="sing_in"> دخول</string>
+    <string name="sing_up">تسجيل</string>
+    <string name="please_wait_until_app_work">الرجاء الانتظار</string>
+    <string name="setting">الاعدادات</string>
+    <string name="setting_info">المعلومات المطلوبة...</string>
+    <string name="ip_no">IP رقم.</string>
+    <string name="company_name">اسم الشركة</string>
+    <string name="employ_name">اسم الموظف</string>
+    <string name="employ_no">رقم الموظف.</string>
+    <string name="company_no">رقم الشركة</string>
+    <string name="save_">حفظ</string>
+    <string name="noevent">الرجاء تسجيل الدخول (لا يوجد حركات اليوم)</string>
+    <string name="search">البحث (اسم الحركة عربي \ انجليزي )</string>
+    <string name="SaveInServer">يتم الحفظ </string>
+    <string name="ops">للاسف</string>
+    <string name="fildToSaveTrans">فشل الحفظ</string>
+
+</resources>

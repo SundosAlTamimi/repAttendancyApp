@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bac_3"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bac_">
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/ic_baseline_settings_24"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:textColor="@color/gray"
+            android:elevation="20dp"
+            android:backgroundTint="@color/white"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:layout_marginVertical="10dp"
+                android:text="@string/welcome_to_app"
+                android:textColor="@color/white"
+                android:textSize="43sp" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0"
+                android:background="@drawable/edit_bac_b"
+                android:padding="20dp"
+                android:layout_marginVertical="10dp"
+
+                android:src="@drawable/clock3"
+                app:civ_border_width="3dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_marginVertical="10dp"
+                android:text="@string/please_wait_until_app_work"
+                android:textColor="@color/gray"
+                android:textSize="19sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/white"
+                android:hint="User Name"
+                android:inputType="textPersonName"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:textColorHint="@color/gray"
+                android:drawablePadding="10dp"
+                android:background="@drawable/edit_bac_y"
+                />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:textColor="@color/gray"
+                android:background="@drawable/edit_bac_y"
+                android:hint="Password"
+                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:textColorHint="@color/gray"
+                android:drawablePadding="10dp"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/LogInButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="50dp"
+                android:background="@drawable/edit_bac_sty"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:text="Sing In " />
+            <TextView
+                android:id="@+id/SingUpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:elevation="15dp"
+                android:background="@drawable/edit_bac_all"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:padding="10dp"
+                android:text="Sing Up" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:drawablePadding="5dp"
+                android:text="forget Password !!"
+                android:drawableStart="@drawable/ic_sharp_not_listed_location_24"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

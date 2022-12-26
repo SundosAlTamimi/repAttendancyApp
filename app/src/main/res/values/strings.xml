@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EmployeeTime</string>
+    <string name="mainSetting">"Please Add Setting "</string>
+    <string name="nomainSetting">no Setting To Open App</string>
+    <string name="cancel">"Add Setting "</string>
+    <string name="multiClick">\"Can Not Click Multi Time For One Transaction \"</string>
+    <string name="checkIn">Please Check in first</string>
+    <string name="Lang">Eng</string>
+    <string name="save">Save Successful</string>
+    <string name="welcome_to_app">Welcome To App</string>
+    <string name="we_can_sin_in_or_sing_up_to_this_app">we can Sin In Or SIng up To This App</string>
+    <string name="sing_in">Sing In</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="please_wait_until_app_work">Please Wait Until App Work ...</string>
+    <string name="setting">Setting</string>
+    <string name="setting_info">setting info...</string>
+    <string name="ip_no">IP NO.</string>
+    <string name="company_name">Company Name</string>
+    <string name="employ_name">Employ Name</string>
+    <string name="employ_no">Employ No.</string>
+    <string name="company_no">Company No</string>
+    <string name="save_">Save</string>
+    <string name="noevent">\"Please CheckIn First (no Event) \"</string>
+    <string name="search">Search (Transaction Name Arabic / Eng)</string>
+    <string name="SaveInServer">Save In Server</string>
+    <string name="ops">OPS</string>
+    <string name="fildToSaveTrans">failed To Save  Trans</string>
+</resources>

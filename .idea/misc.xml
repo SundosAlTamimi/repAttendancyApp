@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/bac_.xml" value="0.123" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_all.xml" value="0.126" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_b.xml" value="0.123" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_b_2.xml" value="0.126" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_b_2_2.xml" value="0.1155" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_log3.xml" value="0.126" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_sty.xml" value="0.123" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/edit_bac_y.xml" value="0.123" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" value="0.1835" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.123" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1835" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.17" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/drawable/ic_sharp_not_listed_location_24.xml" value="0.123" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/layout/activity_main.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/layout/main_core.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/layout/setting_activity.xml" value="0.22" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/layout/sing_in_activity.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/layout/sing_up_activity.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/mr gamer/AndroidStudioProjects/EmployeeTime/app/src/main/res/layout/transaction_row.xml" value="0.20102564102564102" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

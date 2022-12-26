@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/setting"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="serif"
+                android:gravity="center|start"
+                android:padding="10dp"
+                android:text="@string/setting_info"
+                android:textColor="@color/blue"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:drawableStart="@drawable/ic_baseline_123_24"
+                                    android:drawableTint="@color/grays"
+                                    android:fontFamily="serif"
+                                    android:gravity="center|start"
+                                    android:text="@string/ip_no"
+                                    android:drawablePadding="5dp"
+                                    android:textColor="@color/grays" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <EditText
+                                        android:id="@+id/ip"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="5dp"
+                                        android:background="@drawable/edit_bac_b"
+                                        android:ems="10"
+                                        android:layout_weight="1"
+                                        android:inputType="textPersonName"
+                                        android:padding="5dp"
+                                        android:textColor="@color/black"
+                                        android:textSize="18sp" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:drawableStart="@drawable/ic_baseline_account_balance_24"
+                                    android:drawableTint="@color/grays"
+                                    android:fontFamily="serif"
+                                    android:drawablePadding="5dp"
+                                    android:gravity="center|start"
+                                    android:text="@string/company_name"
+                                    android:textColor="@color/grays" />
+
+                                <EditText
+                                    android:id="@+id/coName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/edit_bac_b"
+                                    android:ems="10"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:padding="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:drawableStart="@drawable/ic_baseline_person_24"
+                                    android:drawableTint="@color/grays"
+                                    android:fontFamily="serif"
+                                    android:gravity="center|start"
+                                    android:drawablePadding="5dp"
+                                    android:text="@string/employ_name"
+                                    android:textColor="@color/grays" />
+
+                                <EditText
+                                    android:id="@+id/empName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/edit_bac_b"
+                                    android:ems="10"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:padding="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:drawableStart="@drawable/ic_baseline_person_24"
+                                    android:drawableTint="@color/grays"
+                                    android:fontFamily="serif"
+                                    android:gravity="center|start"
+                                    android:drawablePadding="5dp"
+                                    android:text="@string/employ_no"
+                                    android:textColor="@color/grays" />
+
+                                <EditText
+                                    android:id="@+id/empNo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/edit_bac_b"
+                                    android:ems="10"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:padding="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:drawableStart="@drawable/ic_baseline_account_balance_24"
+                                    android:drawableTint="@color/grays"
+                                    android:fontFamily="serif"
+                                    android:gravity="center|start"
+                                    android:drawablePadding="5dp"
+                                    android:text="@string/company_no"
+                                    android:textColor="@color/grays" />
+
+                                <EditText
+                                    android:id="@+id/coNO"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/edit_bac_b"
+                                    android:ems="10"
+                                    android:layout_weight="1"
+                                    android:inputType="textPersonName"
+                                    android:padding="5dp"
+                                    android:textColor="@color/black"
+                                    android:textSize="18sp" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/saveButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:elevation="50dp"
+                        android:background="@drawable/edit_bac_sty"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:padding="10dp"
+                        android:text="@string/save_" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
