@@ -12,7 +12,9 @@ public class inOutTrans {
         this.inOut = inOut;
         this.tranceKind = tranceKind;
     }
-
+//    public String getInOut() {
+//        return inOut;
+//    }
     public String getInOut() {
         return inOut;
     }
